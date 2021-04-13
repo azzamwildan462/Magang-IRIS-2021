@@ -14,6 +14,6 @@ int main()
     {
         printf("i = %d\nAlamat = %p\nNilai = %d\n", i, (arr + i), *(arr + 1));
     }
-
+    printf("Helo wort");
     return 0;
 }
