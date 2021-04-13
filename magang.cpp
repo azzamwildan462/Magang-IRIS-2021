@@ -15,5 +15,6 @@ int main()
         printf("i = %d\nAlamat = %p\nNilai = %d\n", i, (arr + i), *(arr + 1));
     }
 
+    printf("tess");
     return 0;
 }
