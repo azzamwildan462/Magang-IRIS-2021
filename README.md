@@ -86,7 +86,6 @@ Nah bagaimana cara kerjanya itu? Pertama program main() mengirim dua buah alamat
 int temp = *angka1;
 *angka1 = *angka2;
 *angka2 = temp;
-
 ```
 
 Itulah Pointer dan bagaimana penerapannya dalam pemrograman. Untuk lebih jelasnya saya mencoba membuat sebuah mini-project berbasis Pointer yang dapat diakses pada Folder '13 April 2021'. Selanjutnya adalah membahas tentang Git.
@@ -103,7 +102,6 @@ Langsung saja untuk Git ini ada 2 Sesi yaitu Persiapan dan Pelaksanaan. Sesi per
 4. Pilih file
 5. Commit
 6. Push
-
 ```
 
 1, 2 adalah persiapan dan sisanya adalah pelaksanaan (proses upload)\
@@ -112,7 +110,6 @@ Instalasi pada Ubuntu atau Keluarga Debian lainnya:
 
 ```
 sudo apt install git
-
 ```
 
 Instalasi pada Windows bisa di-download di [https://git-scm.com/] tinggal next next ikuti perintah.\
@@ -122,7 +119,6 @@ Nah setelah selesai setting direktori, kita harus aktifkan Git:
 
 ```
 git init
-
 ```
 
 Setalah init berhasil maka akan terdapat folder bernama '.git' di dalam folder proyek anda. Lalu selanjutnya kita buat Repo di Github dan Remote dia.\
@@ -144,7 +140,6 @@ git branch main
 Pilih branch:
 git checkout 'nama branch'
 git checkout main
-
 ```
 
 Lalu setelah itu, kita pilih file mana yang mau ditambahkan atau di-upload:
@@ -155,7 +150,6 @@ Contoh:
 git add "README.md"
 Untuk upload keseluruhan isi folder:
 git add .
-
 ```
 
 Setelah itu kita lakukan Commit:
@@ -164,7 +158,6 @@ Setelah itu kita lakukan Commit:
 git commit -m "nama commit"
 Contoh:
 git commit -m "update readme"
-
 ```
 
 Oh iya sampai sini, seharusnya file yang tadi telah kita tambahkan ke repo lokal. Untuk menambahkannya ke repo github maka kita harus push dia:
@@ -172,7 +165,6 @@ Oh iya sampai sini, seharusnya file yang tadi telah kita tambahkan ke repo lokal
 ```
 git push 'nama remote' 'nama branch'
 git push remot main
-
 ```
 
 Seharusnya file-file yang kita pilih tadi sudah berada pada repo github kita.
