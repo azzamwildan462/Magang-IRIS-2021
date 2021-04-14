@@ -168,3 +168,4 @@ git push remot main
 ```
 
 Seharusnya file-file yang kita pilih tadi sudah berada pada repo github kita.
+Dan kalau maish ada error tinggal ikutin saja instruksi di Terminalnya. Kalo semisal di repo github sudah ada File jangan terburu-buru gunakan `git push -f 'nama remote' 'nama branch', Backup dulu filenya lalu gunakan Perintah itu Insyaallah WORKSS.. dan saya menulis readme ini 2x karena hal itu :v
