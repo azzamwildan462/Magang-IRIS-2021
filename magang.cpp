@@ -40,7 +40,7 @@ public:
 
 int main()
 {
-    student orang1("Welldone", 3, 4);
+    student orang1("Welldone", 4, 6);
     orang1.calc_media();
     orang1.disp();
 
