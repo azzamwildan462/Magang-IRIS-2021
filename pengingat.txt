@@ -1,0 +1,2 @@
+upload.sh -> ./upload.sh [nama_file] [nama_commit]
+upload_all.sh -> ./upload_all.sh [nama_commit]
