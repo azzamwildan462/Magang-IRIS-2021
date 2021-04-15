@@ -8,5 +8,6 @@ echo " "
 echo -n "Upload pada: "; date
 echo -n "Upload oleh: "; whoami
 echo "Objek -> semua file"
-echo "Commit -> tes error"
+echo "Commit -> $1"
 echo "Cabang -> main"
+echo "thx for using my script"
