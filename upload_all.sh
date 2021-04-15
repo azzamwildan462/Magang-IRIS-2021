@@ -11,4 +11,4 @@ echo -n "Upload oleh: "; whoami
 echo "Objek -> semua file"
 echo "Commit -> $1"
 echo "Cabang -> main"
-echo " "
+#echo " "
