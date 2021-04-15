@@ -5,5 +5,8 @@ git commit -m "$1"
 git push origin main
 echo " "
 echo " "
-echo -n "Upload semua file dengan commit '$1' pada: "; date
-echo "Link -> $link"
+echo -n "Upload pada: "; date
+echo -n "Upload oleh: "; whoami
+echo "Objek -> semua file"
+echo "Commit -> $2"
+echo "Cabang -> main"
