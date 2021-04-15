@@ -1,4 +1,5 @@
 #Eksperimen 2 
+
 link="https://github.com/azzamwildan462/Magang-IRIS-2021"
 git add .
 git commit -m "$1"
